@@ -1,13 +1,15 @@
 import Link from 'next/link'
 import { Fragment } from 'react'
 
+import Navbar from '../components/navbar'
+
 function About(){
-    return(
-        <Fragment>
-            <h1>About</h1>
-            <Link href="/">Home</Link>
-        </Fragment>
-    )
+	return(
+		<Fragment>
+			<Navbar/>
+				
+		</Fragment>
+	)
 }
 
 export default About

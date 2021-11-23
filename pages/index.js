@@ -1,19 +1,27 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Fragment } from 'react'
+
+import profilePic from '../public/pp.svg'
+import Navbar from '../components/navbar'
 
 function Home() {
   return (
     <Fragment>
-      <nav className="navbar">
+      <Navbar/>
+      <section className="hero">
         <div className="container">
-          <Link href="/"><a className="logo">Mentari</a></Link>
-          <ul className="nav-links">
-            <li><Link href="/"><a className="nav-item">Home</a></Link></li>
-            <li><Link href="/about"><a className="nav-item">About</a></Link></li>
-            <li><Link href="/project"><a className="nav-item">Projects</a></Link></li>
-          </ul>
+          <div className="text-wrapper">
+            <h1 className="title">Halo, saya Mentari E Rizki</h1>
+            <p className="description">Saya seorang backend developer</p>
+
+            <Link href="/projects"><a className="cta">Portofolio</a></Link>
+          </div>
+          <div className="image-wrapper">
+            <Image src={profilePic} alt="profile picture"/>
+          </div>
         </div>
-      </nav>
+      </section>
     </Fragment>
   )
 }
