@@ -9,6 +9,7 @@ function Home() {
     <Fragment>
       <Head>
         <title>Home</title>
+        <link rel="icon" href="/pp-putih.png" />
       </Head>
       <Navbar/>
       <section className="hero">

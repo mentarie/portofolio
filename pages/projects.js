@@ -8,6 +8,7 @@ function Projects(){
 		<Fragment>
 			<Head>
         <title>Projects</title>
+				<link rel="icon" href="/pp-putih.png" />
       </Head>
 			<Navbar/>
 			<section className="hero">

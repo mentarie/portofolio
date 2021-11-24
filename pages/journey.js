@@ -9,6 +9,7 @@ function Journey(){
 		<Fragment>
       <Head>
         <title>Journey</title>
+        <link rel="icon" href="/pp-putih.png" />
       </Head>
 			<Navbar/>
 			<section className="hero">
