@@ -2,11 +2,12 @@
   "name": "portofolio",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "npm run dev",
     "start": "next start",
-    "lint": "next lint",
-    "export": "npm run build && next export -o _static"
+    "lint": "eslint src",
+    "build": "npm run export",
+    "export": "next build && next export",
+    "deploy": "yarn build && next export"
   },
   "dependencies": {
     "next": "^12.0.4",
