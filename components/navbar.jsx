@@ -3,10 +3,10 @@ import {withRouter} from 'next/router'
 
 function Navbar({router}) {
 	const navs = [
-		{text: 'Home', href: '/'},
-		{text: 'About', href: '/about'},
-		{text: 'Projects', href: '/projects'},
-		{text: 'Journey', href: '/journey'},
+		{id: 1, text: 'Home', href: '/'},
+		{id: 2, text: 'About', href: '/about'},
+		{id: 3, text: 'Projects', href: '/projects'},
+		{id: 4, text: 'Journey', href: '/journey'},
 	]
 
 	return(
@@ -17,7 +17,7 @@ function Navbar({router}) {
 					<ul className="nav-links">
 						{
 							navs.map(nav => (
-								<li><Link href={nav.href}><a className={`nav-item ${router.pathname == nav.href?'active':''}`}>{nav.text}</a></Link></li>
+								<li key={nav.id}><Link href={nav.href}><a className={`nav-item ${router.pathname == nav.href?'active':''}`}>{nav.text}</a></Link></li>
 							))
 						}
 					</ul>

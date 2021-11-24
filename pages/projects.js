@@ -19,12 +19,12 @@ function Projects(){
 
 						<div className="project-wrapper">
 							<div className="project-item">
-								<Image src="/portfolio1.png" className="project-image" alt="project 1"/>
+								<img src="/portfolio1.png" className="project-image" alt="project 1"/>
 								<h4 className="project-name">Gallery Apps</h4>
 								<div className="project-category">Mobile Dev</div>
 							</div>
 							<div className="project-item">
-								<Image src="/portfolio2.jpg" className="project-image" alt="project 2"/>
+								<img src="/portfolio2.jpg" className="project-image" alt="project 2"/>
 								<h4 className="project-name">Gallery Apps</h4>
 								<div className="project-category">Mobile Dev</div>
 							</div>
