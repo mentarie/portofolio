@@ -4,10 +4,14 @@ import { Fragment } from 'react'
 
 import profilePic from '../public/pp.svg'
 import Navbar from '../components/navbar'
+import Head from 'next/head'
 
 function Home() {
   return (
     <Fragment>
+      <Head>
+        <title>Home</title>
+      </Head>
       <Navbar/>
       <section className="hero">
         <div className="container">

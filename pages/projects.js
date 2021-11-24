@@ -1,12 +1,14 @@
-import Link from 'next/link'
-import Image from 'next/dist/client/image'
 import { Fragment } from 'react'
 
 import Navbar from '../components/navbar'
+import Head from 'next/head'
 
 function Projects(){
 	return(
 		<Fragment>
+			<Head>
+        <title>Projects</title>
+      </Head>
 			<Navbar/>
 			<section className="hero">
         <div className="container">
