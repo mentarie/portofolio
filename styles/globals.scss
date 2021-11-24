@@ -75,6 +75,10 @@ a[href] {
   .text-wrapper{
     width: 50%;
 
+    &.w-full{
+      width: 100%
+    }
+
     .title{
       font-size: 48px;
       margin-top: 0;
@@ -106,6 +110,31 @@ a[href] {
     .image-wrapper{
       width: 20%;
       text-align: right;
+    }
+  }
+}
+.project-wrapper{
+  display: flex;
+  margin-left: -10px;
+
+  .project-item{
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    .project-image{
+      max-width: 100%;
+    }
+
+    .project-name{
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-transform: capitalize;
+    }
+
+    .project-category{
+      color: #999;
     }
   }
 }
