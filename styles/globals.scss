@@ -105,7 +105,11 @@ a[href] {
   .image-wrapper{
       width: 50%;
       text-align: right;
-    }
+
+      .image-item{
+        max-width: 100%;
+      }
+  }
 }
 .project-wrapper{
   display: flex;

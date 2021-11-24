@@ -2,7 +2,7 @@
   "name": "portofolio",
   "private": true,
   "scripts": {
-    "dev": "npm run dev",
+    "dev": "next dev",
     "start": "next start",
     "lint": "eslint src",
     "build": "npm run export",

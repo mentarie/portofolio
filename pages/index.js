@@ -1,8 +1,6 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { Fragment } from 'react'
 
-import profilePic from '../public/pp.svg'
 import Navbar from '../components/navbar'
 import Head from 'next/head'
 
@@ -22,7 +20,7 @@ function Home() {
             <Link href="/projects"><a className="cta">Portofolio</a></Link>
           </div>
           <div className="image-wrapper">
-            <Image src={profilePic} alt="profile picture"/>
+            <img src="/pp.svg" className="image-item" alt="profile picture"/>
           </div>
         </div>
       </section>

@@ -1,5 +1,4 @@
 import { Fragment } from 'react'
-import Image from 'next/image'
 
 import Navbar from '../components/navbar'
 import Head from 'next/head'
