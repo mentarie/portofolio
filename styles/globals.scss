@@ -11,10 +11,6 @@ a[href] {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .container{
   width: 980px;
   margin: 0 auto;
@@ -31,22 +27,23 @@ a[href] {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600;
+    text-decoration: none;
   }
   .nav-links{
     display: flex;
     margin-left: auto;
     list-style: none;
-    a[href] {
+
+    .nav-item {
       position: relative;
       display: inline-block;
       margin-left: 20px;
       margin-right: 20px;
       text-decoration: none;
       transition: opacity .3s;
-
+      
       &.active{
         font-weight: 700;
-        
         &:after{
           content: '';
           position: absolute;
@@ -105,13 +102,10 @@ a[href] {
       }
     }
   }
-
-  .illustrator{
-    .image-wrapper{
-      width: 20%;
+  .image-wrapper{
+      width: 50%;
       text-align: right;
     }
-  }
 }
 .project-wrapper{
   display: flex;
