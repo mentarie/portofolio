@@ -15,7 +15,10 @@ function About(){
         <div className="container">
           <div className="text-wrapper w-full">
             <h1 className="title">About Me</h1>
-            <p className="description">Hello, I'm Mentari Enggar Rizki but you can call me Aii. Currently I'm studying Computer Science major at BINUS University. Experienced 1+ years as junior Backend Developer with JavaScript and Go programming also worked for 1+ years as a System Analyst. </p>
+            <p className="description">Hello, my name is Mentari E Rizki. <br></br> Currently, I&apos;m studying at BINUS University and taking the Computer Science major. Looking back in my first job, I started it as an internship with a junior backend developer role using the PHP programming language, the CodeIgniter framework, and used PostgreSQL as the database. Afterward, I learn about the MERN stack technology using MongoDB, ExpressJS, React, and NodeJS. Now, I am learning Go programming language as well as MongoDB and eagerly deepening my knowledge in writing clean, secure, test-driven, modular, and easy maintenance codes.</p>
+            <div>
+              <h1 className="subtitle">Actively used</h1>
+            </div>
           </div>
         </div>
       </section>
