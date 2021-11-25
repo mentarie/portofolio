@@ -83,7 +83,7 @@ a[href] {
     }
 
     .subtitle{
-      font-size: 36px;
+      font-size: 24px;
       margin-top: 0;
       margin-bottom: 10px;
     }
@@ -91,6 +91,11 @@ a[href] {
     .description{
       font-size: 22px;
       line-height: 40px;
+    }
+
+    .paragraph{
+      font-size: 18px;
+      line-height: 32px;
     }
 
     .cta{
@@ -117,6 +122,7 @@ a[href] {
       }
   }
 }
+
 .project-wrapper{
   display: flex;
   margin-left: -10px;
